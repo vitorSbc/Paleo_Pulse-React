@@ -1,0 +1,25 @@
+.Teste {
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    width: 100%;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+  }
+
+  .newsFirst{
+    background-image: url(./Pictures/Baleia\ Colossau4.jpeg);
+  }
+
+  .newsMiddle{
+    background-image: url(./Pictures/ubirajara.jpg);
+    border-left: 5px solid ;
+    border-right: 5px solid black;
+  }
+  
+  .newsEnd{
+    background-image: url(./Pictures/Pycnonem_Group-2.jpg);
+  }

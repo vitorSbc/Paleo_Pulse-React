@@ -1,0 +1,13 @@
+img {
+    min-width: 150px;
+    max-width: 200px;
+    width: 10vw;
+    transition: 900ms;
+    z-index: 1;
+  }
+  
+  img:hover {
+    z-index: 1;
+    transform: scale(1.03);
+  }
+  
