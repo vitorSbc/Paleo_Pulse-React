@@ -1,14 +1,13 @@
 .container {
   display: flex;
   min-width: 300px;
-    /** border: 5px solid red; **/
     width: 19vw;
     transition: margin 2s;
     z-index: 1;
   }
   
   .hide {
-    margin-top: -250px;
+    margin-top: -200px;
   }
   
   .show {
@@ -16,10 +15,27 @@
     position: relative;
   }
 
+  @media screen and (max-width:3000px ){
+    .hide {
+      margin-top: -250px;
+    }
+  }
+
+  @media screen and (max-width:2000px ){
+    .hide {
+      margin-top: -200px;
+    }
+  }
+
   @media screen and (max-width:700px) {
     .container{
       display: block;
       min-width: 200px;
     }
+
+    .hide {
+      margin-top: -300px;
+    }
+
   }
   
