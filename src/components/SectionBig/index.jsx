@@ -8,9 +8,9 @@ export default function SectionBig() {
   return (
     <>
         <div className="Container">
-            <News news="newsFirst" />
-            <News news="newsMiddle"/>
-            <News news="newsEnd"/>
+            <News news="newsFirst" title=""/>
+            <News news="newsMiddle" title=""/>
+            <News news="newsEnd" title="O Guepardo do Cretáceo"/>
         </div>
     </>
   );

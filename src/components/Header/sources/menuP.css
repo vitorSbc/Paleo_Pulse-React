@@ -21,9 +21,9 @@
     }
   }
 
-  @media screen and (max-width:2000px ){
+  @media screen and (max-width:1980px ){
     .hide {
-      margin-top: -200px;
+      margin-top: -240px;
     }
   }
 

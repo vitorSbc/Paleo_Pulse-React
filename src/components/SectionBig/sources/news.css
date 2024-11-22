@@ -18,10 +18,16 @@
     background-image: url(./Pictures/ubirajara.jpg);
     border-left: 5px solid ;
     border-right: 5px solid black;
+    align-items: center;
+    text-align: center;
+    
   }
   
   .newsEnd{
     background-image: url(./Pictures/Pycnonem_Group-2.jpg);
+    align-items: end;
+    text-align: end;
+    color: #FF6A41 !important
   }
   
   .blur-overlay {
