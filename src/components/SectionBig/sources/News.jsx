@@ -1,9 +1,10 @@
 import { useState } from "react";
 import "./news.css"
-import Title from "./Title";
+import Text from "./Text";
 
 export default function News(props){
     const  news  = props.news;
+    const title = props.text;
     const backgroundImg = news 
     const [blur, setBlur] = useState(true);
     const viewerBluer = blur ? "blur-overlay" : " " 
@@ -18,10 +19,9 @@ export default function News(props){
 
     return(
        <>
-        <div className={`Teste ${backgroundImg}`} onMouseEnter={handling_enter} onMouseLeave={handling_out}>
-            <Title text={props}/>
+        <div className={`display ${backgroundImg}`} onMouseEnter={handling_enter} onMouseLeave={handling_out}>
+            <Text text={title}/>
             <div className={viewerBluer} ></div>
-            
         </div>
         
        </>

@@ -1,11 +1,8 @@
-.Title {
-    position: fixed;
-    border: 5px solid red;
-    width: 20%;
-    color: azure;
+.Title{
+    width: 100%;
     font-weight: 100;
     color: #00C1EA;
-    text-shadow: 5px 5px 5px rgba(15, 47, 134, 0.575);
+    text-shadow: -2px 4px 1px rgba(15, 47, 134, 0.575);
     font-family: "Julius Sans One";
     font-size: 60px;
 }
