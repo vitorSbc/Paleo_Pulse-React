@@ -1,8 +1,4 @@
 .test{
-    position: fixed;
-    margin: 1.5%;
-    border: 5px solid red;
-    align-self: start;
-    justify-self: unset;
+    width: 100%;
 }
 

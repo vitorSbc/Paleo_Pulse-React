@@ -2,7 +2,7 @@
   display: flex;
   min-width: 300px;
     width: 19vw;
-    transition: margin 2s;
+    transition: margin 1s;
     z-index: 1;
   }
   

@@ -1,7 +1,10 @@
 import "./link.css"
 
-export default function Link(){
+export default function Link(props){
+   const newsFocus = props.newsFocus;
     return(
-        <a className="link">Ler mais</a>
+        <>
+        <a href="" onClick={newsFocus} className="link">Ler mais</a>
+        </>
     )
 }

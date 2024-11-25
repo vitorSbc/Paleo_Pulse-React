@@ -1,8 +1,9 @@
+import { useState } from "react";
 import News from "./sources/News";
 import "./styles.css";
 
 export default function SectionBig() {
-  
+  const [newsFocus, setNewsFocus] = useState(false);
   
 
   return (
