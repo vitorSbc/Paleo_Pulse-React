@@ -5,16 +5,13 @@ import Text from "./Text";
 export default function News(props){
     const  news  = props.news;
     const title = props.text;
-    const newsFocus = props.newsFocus
-    const setNewsFocus = props.newsStatus
-    const backgroundImg = news 
-    const [blur, setBlur] = useState(true);
-    const viewerBluer = blur ? "blur-overlay" : " " 
-
-
+    const backgroundImg = news;
+    const [focus, setFocus] = useState(true)
+    const newFocus = focus ? "newsFocus" : " "
+    
     return(
        <>
-        <div className={`display ${backgroundImg}`}>
+        <div className={`display ${backgroundImg} ${newFocus}`}>
             <Text text={title} />
         </div>
         

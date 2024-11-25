@@ -1,43 +1,13 @@
-  
-
-.dino1 .TitleBig{
-  z-index: 2;
-  text-align: left;
-  color: #00C1EA;
-  text-shadow: 5px 5px 5px rgba(15, 47, 134, 0.575);
-  font-family: "Julius Sans One";
-  font-size: 85px;
-  margin: 0px;
-  padding: 0px;
-}
-
-.dino1 a {
-  z-index: 2;
-  font-family: "League Spartan", sans-serif;
-  color: #FCB742;
-  text-decoration: none;
-    text-shadow:0px 2px 6px #FCB742;
-  font-size: 35px;
-  margin: 10px;
-  padding: 0px;
-}
-
-
-
-
-
-  .Container {
+.Container {
     margin-top: 7em;
     margin-left:1vw;
-    margin-right:1vw;
     border-radius: 30px;
     border: 5px solid #FCB742;
     box-shadow: 0px 0px 15px rgb(0, 0, 0);
     display: inline-block;
-    width: 97%;
+    width: 98%;
     height: 70vh;
     overflow-x: hidden;
-    overflow-y: hidden;
 
   }
 

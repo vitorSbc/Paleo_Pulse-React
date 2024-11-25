@@ -2,50 +2,23 @@
     display: flex;
     flex-direction:column;
     justify-content:center;
-    align-items: center;
+    align-items:end;
     background-color: white;
     transition: 1s;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.288); 
+    background-repeat: no-repeat;
+    background-size:cover ;
   }
 
   .newsFirst{
     background-image: url(./Pictures/Baleia\ Colossau4.jpeg);
   }
-
-  .newsMiddle{
-    background-image: url(./Pictures/ubirajara.jpg);
-    border-left: 5px solid ;
-    border-right: 5px solid black;
-    align-items: center;
-    text-align: center;
-  }
-
-  .newsMiddle h1{
-    color: #c3cccc;
-    text-shadow: 0px 6px 10px rgba(255, 255, 255, 0.774);
-  }
   
-  .newsEnd{
-    background-image: url(./Pictures/Pycnonem_Group-2.jpg);
-    align-items: end;
-    text-align: end;
-  }
+.newsFocus{
+  display: inline-block;
+  width: 100%;
+  text-align: center;
 
-  .newsEnd h1{
-    justify-self:end;
-    align-items: end;
-    text-align: end;
-    color: #e4390a;
-    text-shadow: 4px 5px 10px rgba(189, 5, 5, 0.774);
-  }
-  
-  .blur-overlay {
-    position:fixed;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.288); 
-    backdrop-filter: blur(4px); 
-  }
-
+}
   
