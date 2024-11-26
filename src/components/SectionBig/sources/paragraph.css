@@ -1,0 +1,7 @@
+.text{
+    border: 5px solid red;
+    max-width: 90%;
+    font-family: "League Spartan", sans-serif;
+    color: rgb(223, 243, 243);
+    font-size: 30px;
+}

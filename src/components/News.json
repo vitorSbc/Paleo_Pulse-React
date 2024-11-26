@@ -1,0 +1,78 @@
+[
+    {
+        "id":1,
+        "categoria":"Paleologia",
+        "titulo":"Um Novo Colosso",
+        "texto":"A descoberta de fósseis de uma antiga baleia-colossal no Peru revelou uma espécie que pode ser o animal mais pesado já registrado. A Perucetus colossus, com uma massa estimada entre 85 a 340 toneladas, teria peso igual ou superior ao da baleia azul, considerada a maior até agora. O esqueleto parcial, composto por vértebras, costelas e um osso do quadril, indica que a espécie teria entre 17 a 20 metros de comprimento, menor que a baleia azul, mas possivelmente mais pesada. Perucetus provavelmente nadava lentamente, com um estilo de nado ondulatório, devido à sua grande massa. Seus ossos eram extremamente densos e compactos, um tipo de espessamento encontrado em sirênios, como os peixes-boi. A descoberta, datada do Eoceno, oferece uma visão única dos ecossistemas marinhos da época e é fundamental para entender a evolução dos mamíferos marinhos.",
+        "img":"https://raw.githubusercontent.com/vitorSbc/Site_Paleo_Pulse/refs/heads/main/Pictures/Perucetus/Baleia_3.0.jpg"
+    },
+    {
+        "id":2,
+        "categoria":"Paleologia",
+        "titulo":"O Guepardo do Cretáceo",
+        "texto":"Cientistas anunciaram a descoberta de uma nova espécie de dinossauro Abelisauridae, chamada Pycnonemosaurus nevesi, encontrada no Brasil. Essa espécie, um carnívoro do Cretáceo Superior, viveu entre 90 e 70 milhões de anos atrás. Os fósseis foram analisados por uma equipe liderada pelo paleontólogo Dr. Luís Neves, que teve a espécie nomeada em sua homenagem. O Pycnonemosaurus possui características únicas, como cristas e projeções ósseas no crânio, possivelmente para comunicação ou exibições rituais. Com membros robustos e uma mandíbula forte, era um predador topo de cadeia alimentar. A descoberta ajuda a expandir o conhecimento sobre os dinossauros Abelisauridae e os ecossistemas da América do Sul no período Cretáceo.",
+        "img":"https://raw.githubusercontent.com/vitorSbc/Site_Paleo_Pulse/refs/heads/main/Pictures/Pyconemosaurus/Pycnonem_Group-2.jpg"
+    },
+    {
+        "id":3,
+        "categoria":"Paleologia",
+        "titulo":"A Briga Presa no Tempo",
+        "texto":"Cientistas anunciaram a descoberta de um fóssil impressionante que mostra um confronto entre o mamífero Repenomamus robustus e o dinossauro Psittacosaurus durante o período Cretáceo, na Ásia Central. O fóssil, bem preservado, mostra ambos os animais em uma luta intensa pela sobrevivência, com marcas de dentes e arranhões nas duas criaturas. O Repenomamus era um mamífero do tamanho de um gato, com mandíbulas poderosas, capaz de caçar presas grandes, enquanto o Psittacosaurus era um dinossauro de cerca de dois metros, com bico de papagaio e adaptado à vida terrestre. A descoberta oferece uma visão rara das interações predatórias e ecológicas da época, despertando grande interesse na comunidade científica.",
+        "img":"https://raw.githubusercontent.com/vitorSbc/Site_Paleo_Pulse/refs/heads/main/Pictures/TheFight/Treta2.2.jpg"
+    },
+    {
+        "id":4,
+        "categoria":"Paleologia",
+        "titulo":"O roubado",
+        "texto":"A história do fóssil do dinossauro brasileiro Ubirajara jubatus ganhou destaque internacional após ser revelado que, depois de décadas em solo alemão, o exemplar retornou ao Brasil. Descoberto no início do século XX em uma expedição no nordeste brasileiro, o fóssil foi levado para um museu na Alemanha, onde permaneceu por quase 80 anos, longe dos pesquisadores brasileiros. O Ubirajara é famoso por suas longas penas coloridas ao redor do pescoço, sugerindo uma possível função em rituais ou comunicação. Sua localização foi finalmente revelada após uma revisão dos registros dos museus alemães, com colaboração de cientistas brasileiros. A paleontóloga Maria Fernanda Costa expressou a emoção de ter 'encontrado um tesouro perdido', e o fóssil agora está no Museu Nacional do Brasil, que prepara uma exposição sobre sua jornada. O caso sublinha a importância da cooperação internacional na preservação e estudo de fósseis significativos.",
+        "img":"https://raw.githubusercontent.com/vitorSbc/Site_Paleo_Pulse/refs/heads/main/Pictures/Ubirajara/Ubirajara-2.1.2.jpg"
+    },{
+        "id":5,
+        "categoria":"arqueologia",
+        "titulo":"O Rosto do Passado",
+        "texto":"Cientistas utilizaram técnicas de aproximação facial forense, fotogrametria e modelagem 3D para reconstruir o rosto de um homem egípcio de 35 mil anos, identificado como Nazlet Khater 2 (NK2). O esqueleto foi encontrado em 1980 no Vale do Nilo e, com base em análises antropológicas, acredita-se que o homem tivesse entre 17 e 20 anos e fosse descendente de africanos. O local de descoberta sugeria que ele trabalhava em mineração de cherte, devido a lesões e perfurações em seu corpo. Embora o esqueleto estivesse incompleto, os cientistas reconstruíram o rosto utilizando técnicas de espelhamento para as partes faltantes. A reconstrução gerou uma imagem mais precisa do tamanho de lábios e nariz, sendo também apresentada de forma artística para o público. O objetivo, segundo os pesquisadores, é humanizar esses indivíduos antigos e aproximá-los do público moderno.",
+        "img":"https://raw.githubusercontent.com/vitorSbc/Site_Paleo_Pulse/refs/heads/main/Pictures/TheFaceofpast/Egipcio_Recostru%C3%A7%C3%A3o2.jpg"
+    }
+    ,{
+        "id":6,
+        "categoria":"arqueologia",
+        "titulo":"Os mistériosos ossos de 2 mil anos atrás",
+        "texto":"Cientistas usaram análise de DNA antigo para rastrear os passos de um jovem Sármata, nascido há dois mil anos no sul da Rússia, até a Inglaterra. O esqueleto, apelidado de Offord Cluny 203645, foi encontrado durante escavações para uma estrada entre Cambridge e Huntingdon. A pesquisa revelou que o jovem Sármata, inicialmente pensado como local, na verdade migrou para a Grã-Bretanha, com base no DNA extraído de um osso do ouvido interno. Os dentes fossilizados indicaram mudanças na dieta, com ele consumindo milho e sorgo (culturas típicas da região sármata) até os 6 anos, e depois trigo, mais comum na Europa Ocidental. Os registros históricos sugerem que ele pode ter sido filho de um cavaleiro ou escravo, parte de uma unidade da cavalaria Sármata enviada à Grã-Bretanha. A descoberta, que usa técnicas de DNA e análise química, revoluciona a compreensão da mobilidade humana na Grã-Bretanha romana e das sociedades rurais da época.",
+        "img":"https://raw.githubusercontent.com/vitorSbc/Site_Paleo_Pulse/refs/heads/main/Pictures/Os_Ossos/Warrios.jpg"
+    }
+    ,{
+        "id":7,
+        "categoria":"arqueologia",
+        "titulo":"O Elo entre Neandertais e Sapiens",
+        "texto":"Um estudo da Universidade de Genebra revela novas descobertas sobre a interação entre Neandertais e Homo sapiens nos últimos 40 mil anos. Durante a transição entre as duas espécies, elas não apenas coexistiram, mas também interagiram geneticamente, deixando um legado que persiste até hoje. Cerca de 2% do DNA Neandertal permanece nas populações da Eurásia, com maior presença na Ásia. A pesquisa focou na Europa, onde se observou uma diminuição do DNA Neandertal após a chegada de agricultores do Oriente Médio, que possuíam menor proporção desse DNA. O estudo destaca a importância de combinar análise genômica e dados arqueológicos para entender a hibridização entre as espécies e como isso moldou a evolução humana.",
+        "img":"https://raw.githubusercontent.com/vitorSbc/Site_Paleo_Pulse/refs/heads/main/Pictures/O_Elo/01_Neanderthal-Family.jpg"
+    }
+    ,{
+        "id":8,
+        "categoria":"arqueologia",
+        "titulo":"A escultura de 25 mil anos feita de osso de Mamute",
+        "texto":"Arqueólogos descobriram uma impressionante escultura de ossos de mamute em Voronezh, Rússia, com 12,5 metros de extensão e datada de cerca de 25 mil anos, da era do gelo. Feita com ossos de aproximadamente 60 mamutes, a escultura é a mais antiga do tipo encontrada no Leste Europeu. Os pesquisadores ainda tentam entender os motivos por trás dessa criação monumental, especulando que possa ter sido usada para rituais, embora o propósito exato seja desconhecido. A descoberta surpreende, pois, embora ossos de mamute já tenham sido usados para vestimentas e cabanas, uma escultura desse tamanho é inédita. O mistério sobre o uso da estrutura e os buracos ao redor continua a intrigar a comunidade científica.",
+        "img":"https://raw.githubusercontent.com/vitorSbc/Site_Paleo_Pulse/refs/heads/main/Pictures/Os_Mamutes/sn-mammoth.jpg"
+    }
+    ,{
+        "id":1,
+        "categoria":"Paleologia",
+        "titulo":"Um Novo Colosso",
+        "texto":"A descoberta de fósseis de uma antiga baleia-colossal no Peru revelou uma espécie que pode ser o animal mais pesado já registrado. A Perucetus colossus, com uma massa estimada entre 85 a 340 toneladas, teria peso igual ou superior ao da baleia azul, considerada a maior até agora. O esqueleto parcial, composto por vértebras, costelas e um osso do quadril, indica que a espécie teria entre 17 a 20 metros de comprimento, menor que a baleia azul, mas possivelmente mais pesada. Perucetus provavelmente nadava lentamente, com um estilo de nado ondulatório, devido à sua grande massa. Seus ossos eram extremamente densos e compactos, um tipo de espessamento encontrado em sirênios, como os peixes-boi. A descoberta, datada do Eoceno, oferece uma visão única dos ecossistemas marinhos da época e é fundamental para entender a evolução dos mamíferos marinhos.",
+        "img":"https://raw.githubusercontent.com/vitorSbc/Site_Paleo_Pulse/refs/heads/main/Pictures/Perucetus/Baleia_3.0.jpg"
+    }
+    ,{
+        "id":1,
+        "categoria":"Paleologia",
+        "titulo":"Um Novo Colosso",
+        "texto":"A descoberta de fósseis de uma antiga baleia-colossal no Peru revelou uma espécie que pode ser o animal mais pesado já registrado. A Perucetus colossus, com uma massa estimada entre 85 a 340 toneladas, teria peso igual ou superior ao da baleia azul, considerada a maior até agora. O esqueleto parcial, composto por vértebras, costelas e um osso do quadril, indica que a espécie teria entre 17 a 20 metros de comprimento, menor que a baleia azul, mas possivelmente mais pesada. Perucetus provavelmente nadava lentamente, com um estilo de nado ondulatório, devido à sua grande massa. Seus ossos eram extremamente densos e compactos, um tipo de espessamento encontrado em sirênios, como os peixes-boi. A descoberta, datada do Eoceno, oferece uma visão única dos ecossistemas marinhos da época e é fundamental para entender a evolução dos mamíferos marinhos.",
+        "img":"https://raw.githubusercontent.com/vitorSbc/Site_Paleo_Pulse/refs/heads/main/Pictures/Perucetus/Baleia_3.0.jpg"
+    }
+    ,{
+        "id":1,
+        "categoria":"Paleologia",
+        "titulo":"Um Novo Colosso",
+        "texto":"A descoberta de fósseis de uma antiga baleia-colossal no Peru revelou uma espécie que pode ser o animal mais pesado já registrado. A Perucetus colossus, com uma massa estimada entre 85 a 340 toneladas, teria peso igual ou superior ao da baleia azul, considerada a maior até agora. O esqueleto parcial, composto por vértebras, costelas e um osso do quadril, indica que a espécie teria entre 17 a 20 metros de comprimento, menor que a baleia azul, mas possivelmente mais pesada. Perucetus provavelmente nadava lentamente, com um estilo de nado ondulatório, devido à sua grande massa. Seus ossos eram extremamente densos e compactos, um tipo de espessamento encontrado em sirênios, como os peixes-boi. A descoberta, datada do Eoceno, oferece uma visão única dos ecossistemas marinhos da época e é fundamental para entender a evolução dos mamíferos marinhos.",
+        "img":"https://raw.githubusercontent.com/vitorSbc/Site_Paleo_Pulse/refs/heads/main/Pictures/Perucetus/Baleia_3.0.jpg"
+    }
+]
