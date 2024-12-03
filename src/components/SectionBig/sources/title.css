@@ -4,13 +4,12 @@
     color: #00C1EA;
     align-self: center;
     border: 5px solid red;
-    text-align: center;
+    text-align: right;
     text-shadow: -2px 4px 1px rgba(15, 47, 134, 0.575);
     font-family: "Julius Sans One";
     font-size: 85px;
 }
 
-.newsFocus{
-    align-self: center;
+.titleFocus{
     text-align: center;
 }

@@ -4,7 +4,8 @@ import Text from "./Text";
 
 export default function News(props){
     const  news  = props.news;
-    const title = props.text;
+    const title = props.title;
+    const text = props.text;
     const backgroundImg = news;
     const [focus, setFocus] = useState(true)
     const newFocus = focus ? "newsFocus" : " "
@@ -12,7 +13,8 @@ export default function News(props){
     return(
        <>
         <div className={`display ${backgroundImg} ${newFocus}`}>
-            <Text text={title} />
+            <Text title={title} focus={focus} text ={text}/>
+            
         </div>
         
        </>

@@ -1,11 +1,12 @@
 import "./title.css";
 
 export default function Title(props){
-    const newsPosition = props.newsPosition
-    const title = props.text;
+    const title = props.title;
+    const focus = props.focus;
+    const titleFocus = focus ? "titleFocus" : " "
     
     return(
-        <h1 className={`Title ${newsPosition}`}>
+        <h1 className={`Title ${titleFocus}`}>
             {title}
         </h1>
     )
