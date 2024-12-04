@@ -1,0 +1,15 @@
+.close{
+    display: flex;
+    position:sticky;
+    align-self: start;
+    left: 1.5vw;
+    top: 1.5vh;
+    width: 5em;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.focusOFF{
+    display: none;
+    transition: 1s;
+}

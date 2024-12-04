@@ -6,6 +6,6 @@ export default function Img(props) {
     const focus = props.focus;
     const imgFocus = focus ? "focus" :  " "
     return(
-        <img className={`image ${focus}`} src={img} alt={cat} />
+        <img className={`image ${imgFocus}`} src={img} alt={cat} />
     )
 }

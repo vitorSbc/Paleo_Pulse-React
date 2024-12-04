@@ -1,0 +1,9 @@
+.ContainerIcons{
+    display: flex;
+    margin-top: 6vh;
+    border-top:5px solid #ffda08;
+    border-bottom:5px solid #ffda08;
+    width: 100%;
+    max-height: 12em;
+    background-color: #FCB742;
+}

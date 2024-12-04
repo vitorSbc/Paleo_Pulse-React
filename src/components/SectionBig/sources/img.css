@@ -1,5 +1,5 @@
 .image{
-    display: inline-block;
+    display: none;
     max-width: 50%;
     border: 5px solid #FCB742;
     border-radius: 50px;

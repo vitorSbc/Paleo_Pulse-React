@@ -5,3 +5,7 @@
     font-size: 2.6em;
     line-height: 70px;
 }
+
+.textOFF{
+    display: none;
+}

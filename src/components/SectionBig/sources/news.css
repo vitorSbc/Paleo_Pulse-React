@@ -35,7 +35,6 @@
 .newsFocus{
   display: inline-block;
   backdrop-filter: blur(1px);
-
   width: 100%;
   text-align: center;
 
