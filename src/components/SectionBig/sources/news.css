@@ -9,6 +9,23 @@
     background-color: rgba(0, 0, 0, 0.288); 
     background-repeat: no-repeat;
     background-size:cover ;
+    overflow-y: scroll;
+    overflow-x:hidden ;
+    transition: 2s
+  }
+
+  .display::-webkit-scrollbar {
+    width: 10px;
+    
+  }
+
+  .display::-webkit-scrollbar-track {
+    background: #ffffff00;
+  }
+
+  .display::-webkit-scrollbar-thumb {
+    background-color: #FCB742;
+    border-radius: 20px;
   }
 
   .newsFirst{
@@ -17,6 +34,8 @@
   
 .newsFocus{
   display: inline-block;
+  backdrop-filter: blur(1px);
+
   width: 100%;
   text-align: center;
 

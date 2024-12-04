@@ -1,0 +1,11 @@
+.image{
+    display: inline-block;
+    max-width: 50%;
+    border: 5px solid #FCB742;
+    border-radius: 50px;
+    margin-bottom: 4vh;
+}
+
+.focus{
+    display: inline-block;
+}

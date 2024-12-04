@@ -7,13 +7,13 @@ export default function SectionBig() {
   const [post, setPosts] = useState([])
 
   useEffect(()=>{
-    fetch('/News.json').then((response) => response.json()).then((data) => setPosts(data).catch((error) => console.error("Erro ao carregar o JSON: ", error)))
+    fetch('/News.json').then((response) => response.json()).then((data) => setPosts(data)).catch((error) => console.error('Erro ao carregar o JSON:', error))
   },[])
   
   return (
     <>
         <div className="Container">
-            <News key={post.id} news="newsFirst" title={post[0].titulo} text={post[0].texto}/>
+            <News key={post.id} news="newsFirst" title={post[0].titulo} text={post[0].texto} img={post[0].img} cate={post[0].categorias}/>
         </div>
     </>
   );
