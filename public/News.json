@@ -33,7 +33,7 @@
     },{
         "id":5,
         "categoria":"arqueologia",
-        "icon":"https://raw.githubusercontent.com/vitorSbc/Site_Paleo_Pulse/refs/heads/main/Pictures/Icones/antropology-2.pnghttps://raw.githubusercontent.com/vitorSbc/Site_Paleo_Pulse/refs/heads/main/Pictures/Icones/Pyconenomo-Icone.png",
+        "icon":"https://raw.githubusercontent.com/vitorSbc/Site_Paleo_Pulse/refs/heads/main/Pictures/Icones/antropology-2.png",
         "titulo":"O Rosto do Passado",
         "texto":"Cientistas utilizaram técnicas de aproximação facial forense, fotogrametria e modelagem 3D para reconstruir o rosto de um homem egípcio de 35 mil anos, identificado como Nazlet Khater 2 (NK2). O esqueleto foi encontrado em 1980 no Vale do Nilo e, com base em análises antropológicas, acredita-se que o homem tivesse entre 17 e 20 anos e fosse descendente de africanos. O local de descoberta sugeria que ele trabalhava em mineração de cherte, devido a lesões e perfurações em seu corpo. Embora o esqueleto estivesse incompleto, os cientistas reconstruíram o rosto utilizando técnicas de espelhamento para as partes faltantes. A reconstrução gerou uma imagem mais precisa do tamanho de lábios e nariz, sendo também apresentada de forma artística para o público. O objetivo, segundo os pesquisadores, é humanizar esses indivíduos antigos e aproximá-los do público moderno.",
         "img":"https://raw.githubusercontent.com/vitorSbc/Site_Paleo_Pulse/refs/heads/main/Pictures/TheFaceofpast/Egipcio_Recostru%C3%A7%C3%A3o2.jpg"
@@ -57,7 +57,7 @@
     ,{
         "id":8,
         "categoria":"arqueologia",
-        "icon":"https://github.com/vitorSbc/Site_Paleo_Pulse/blob/main/Pictures/Icones/mammoth.png",
+        "icon":"https://raw.githubusercontent.com/vitorSbc/Site_Paleo_Pulse/refs/heads/main/Pictures/Icones/mammoth.png",
         "titulo":"A escultura de 25 mil anos feita de osso de Mamute",
         "texto":"Arqueólogos descobriram uma impressionante escultura de ossos de mamute em Voronezh, Rússia, com 12,5 metros de extensão e datada de cerca de 25 mil anos, da era do gelo. Feita com ossos de aproximadamente 60 mamutes, a escultura é a mais antiga do tipo encontrada no Leste Europeu. Os pesquisadores ainda tentam entender os motivos por trás dessa criação monumental, especulando que possa ter sido usada para rituais, embora o propósito exato seja desconhecido. A descoberta surpreende, pois, embora ossos de mamute já tenham sido usados para vestimentas e cabanas, uma escultura desse tamanho é inédita. O mistério sobre o uso da estrutura e os buracos ao redor continua a intrigar a comunidade científica.",
         "img":"https://raw.githubusercontent.com/vitorSbc/Site_Paleo_Pulse/refs/heads/main/Pictures/Os_Mamutes/sn-mammoth.jpg"

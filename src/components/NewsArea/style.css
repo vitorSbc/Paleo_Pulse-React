@@ -1,9 +1,30 @@
 .ContainerIcons{
     display: flex;
-    margin-top: 6vh;
-    border-top:5px solid #ffda08;
-    border-bottom:5px solid #ffda08;
-    width: 100%;
+    margin: 8vh auto;
+    padding: 9px;
+    box-shadow: 0px 6px 10px #6e6e6e;
+    border: 5px solid #FCB742;
+    border-radius: 20px;
+    max-width: 90%;
     max-height: 12em;
-    background-color: #FCB742;
+    background-color: #011820da;
+    overflow-x:scroll;
+}
+
+.ContainerIcons::-webkit-scrollbar {
+    height: 10px;
+    
+    overflow-x: hidden;        
+    
+  }
+
+  .ContainerIcons::-webkit-scrollbar-track {
+    background: #ffffff00;
+  }
+
+  .ContainerIcons::-webkit-scrollbar-thumb {
+    background-color: #ffffffda;
+    max-width: 10px;
+    border-radius: 30px;
+    overflow-x: hidden;
 }

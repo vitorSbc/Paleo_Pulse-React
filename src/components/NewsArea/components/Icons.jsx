@@ -15,7 +15,7 @@ export default function Icons() {
 
     return(
         <>
-        {post.map((item,index)=>{
+        {post.sort(() => Math.random() - 0.8).map((item,index)=>{
             return(<img className="Icons" src={item.icon} alt={item.categoria} />)
         })}
         </>
