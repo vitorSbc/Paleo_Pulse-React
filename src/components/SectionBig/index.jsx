@@ -2,13 +2,13 @@ import { useEffect, useState } from "react";
 import News from "./sources/News";
 import "./styles.css";
 
-export default function SectionBig() {
-  const [newsFocus, setNewsFocus] = useState(false);
+export default function SectionBig(props) {
   const [post, setPosts] = useState([])
+  const postFocus = props.postFil
 
   useEffect(()=>{
     fetch('/News.json').then((response) => response.json()).then((data) => setPosts(data)).catch((error) => console.error('Erro ao carregar o JSON:', error))
-  },[])
+  })
   
   if (post.length === 0) {
     return <div>Carregando...</div>;  // Mostrar algo enquanto os dados estão sendo carregados
@@ -18,12 +18,12 @@ export default function SectionBig() {
     <>
         <div className="Container">
         <News 
-          key={post[0].id} 
+          key={postFocus.id} 
           news="newsFirst" 
-          title={post[0].titulo} 
-          text={post[0].texto} 
-          img={post[0].img} 
-          cate={post[0].categorias}/>
+          title={postFocus.titulo} 
+          text={postFocus.texto} 
+          img={postFocus.img} 
+          cate={postFocus.categorias}/>
 
         </div>
     </>

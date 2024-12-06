@@ -2,3 +2,9 @@
     width: 9%;
     margin: 5px;
 }
+
+.Icons:hover {
+    z-index: 3;
+    transform: scale(1.03);
+  }
+  
