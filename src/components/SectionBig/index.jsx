@@ -8,7 +8,7 @@ export default function SectionBig(props) {
 
   useEffect(()=>{
     fetch('/News.json').then((response) => response.json()).then((data) => setPosts(data)).catch((error) => console.error('Erro ao carregar o JSON:', error))
-  })
+  },[])
   
   if (post.length === 0) {
     return <div>Carregando...</div>;  // Mostrar algo enquanto os dados estão sendo carregados
@@ -18,12 +18,12 @@ export default function SectionBig(props) {
     <>
         <div className="Container">
         <News 
-          key={postFocus.id} 
+          key={post[postFocus -1].id} 
           news="newsFirst" 
-          title={postFocus.titulo} 
-          text={postFocus.texto} 
-          img={postFocus.img} 
-          cate={postFocus.categorias}/>
+          title={post[postFocus -1].titulo} 
+          text={post[postFocus -1].texto} 
+          img={post[postFocus -1].img} 
+          cate={post[postFocus -1].categorias}/>
 
         </div>
     </>
