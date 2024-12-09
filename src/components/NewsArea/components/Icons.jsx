@@ -9,8 +9,7 @@ export default function Icons(props) {
     
     useEffect(()=>{
       fetch('/News.json').then((response) => response.json()).then((data) => {
-                      const sortedPosts = [...post].sort(() => Math.random() - 0.8);
-                      setPosts(sortedPosts)})
+                      setPosts(data)})
         .catch((error) => console.error('Erro ao carregar o JSON:', error))
     },[])
     

@@ -18,12 +18,12 @@ export default function SectionBig(props) {
     <>
         <div className="Container">
         <News 
-          key={post[postFocus -1].id} 
-          news="newsFirst" 
-          title={post[postFocus -1].titulo} 
-          text={post[postFocus -1].texto} 
-          img={post[postFocus -1].img} 
-          cate={post[postFocus -1].categorias}/>
+          key={post[0].id} 
+          news={post[0].img2}
+          title={post[0].titulo} 
+          text={post[0].texto} 
+          img={post[0].img}
+          cate={post[0].categorias}/>
 
         </div>
     </>

@@ -16,7 +16,7 @@ export default function News(props){
     
     return(
        <>
-        <div className={`display ${backgroundImg} ${newFocus}`}>
+        <div className={`display ${newFocus}`} style={{backgroundImage: `url${backgroundImg}`}}>
             <IconClose focus={focus} setFocus={setFocus}/>
             <Text title={title} focus={focus} setFocus={setFocus} text ={text}/>
             <Img img={img} cat={cat} focus={focus}/>
