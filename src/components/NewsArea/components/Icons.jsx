@@ -3,15 +3,15 @@ import "./Icons.css"
 
 export default function Icons(props) {
 
-    const [post, setPosts] = useState([])
-    const [postIndex, setpostIndex] = useState(0)
+    const post= props.post
     const setpostFil = props.setpostFil;
+    const [sortedPosts, setSortedPosts] = useState([]);
     
     useEffect(()=>{
-      fetch('/News.json').then((response) => response.json()).then((data) => {
-                      setPosts(data)})
-        .catch((error) => console.error('Erro ao carregar o JSON:', error))
-    },[])
+        const mixPost = [...post].sort(() => Math.random() - 0.8);
+        setSortedPosts(mixPost)
+      
+    },[2])
     
     
     if (post.length === 0) {
@@ -22,9 +22,10 @@ export default function Icons(props) {
       setpostFil(event)
     }
 
+
     return(
         <>
-        {post.map((item,index)=>{
+        {sortedPosts.map((item,index)=>{
             return(<img className="Icons" 
                         src={item.icon} 
                         alt={item.categoria} 

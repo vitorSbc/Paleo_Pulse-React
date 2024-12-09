@@ -9,6 +9,7 @@
     background-color: rgba(0, 0, 0, 0.288); 
     background-repeat: no-repeat;
     background-size:cover ;
+    background-position: center;
     overflow-y: scroll;
     overflow-x:hidden ;
     transition: 2s
@@ -28,10 +29,6 @@
     border-radius: 20px;
   }
 
-  .newsFirst{
-    background-image: url("./Pictures/Baleia\ Colossau4.jpeg");
-  }
-  
 .newsFocus{
   display: inline-block;
   backdrop-filter: blur(1px);
@@ -40,3 +37,8 @@
 
 }
   
+.blur-overlay {
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.288); 
+  backdrop-filter: blur(1px); 
+}

@@ -16,10 +16,11 @@ export default function News(props){
     
     return(
        <>
-        <div className={`display ${newFocus}`} style={{backgroundImage: `url${backgroundImg}`}}>
+        <div className={`display ${newFocus} blur-overlay`} style={{backgroundImage: `url(${backgroundImg})`}}>
             <IconClose focus={focus} setFocus={setFocus}/>
             <Text title={title} focus={focus} setFocus={setFocus} text ={text}/>
             <Img img={img} cat={cat} focus={focus}/>
+            <div className="blur-overlay"></div>
         </div>
         
        </>
