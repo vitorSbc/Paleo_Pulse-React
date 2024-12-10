@@ -1,10 +1,10 @@
 .Title{
     width: 90%;
     font-weight: 100;
-    color: #00C1EA;
+    color: #010e13;
     align-self: center;
     text-align: right;
-    text-shadow: -2px 4px 1px rgba(15, 47, 134, 0.575);
+    text-shadow: -2px 4px 1px rgba(0, 0, 0, 0.575);
     font-family: "Julius Sans One";
     font-size: 85px;
 }

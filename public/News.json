@@ -65,7 +65,7 @@
         "id":8,
         "categoria":"arqueologia",
         "icon":"https://raw.githubusercontent.com/vitorSbc/Site_Paleo_Pulse/refs/heads/main/Pictures/Icones/mammoth.png",
-        "titulo":"A escultura de 25 mil anos feita de osso de Mamute",
+        "titulo":"A escultura de ossos de Mamutes",
         "texto":"Arqueólogos descobriram uma impressionante escultura de ossos de mamute em Voronezh, Rússia, com 12,5 metros de extensão e datada de cerca de 25 mil anos, da era do gelo. Feita com ossos de aproximadamente 60 mamutes, a escultura é a mais antiga do tipo encontrada no Leste Europeu. Os pesquisadores ainda tentam entender os motivos por trás dessa criação monumental, especulando que possa ter sido usada para rituais, embora o propósito exato seja desconhecido. A descoberta surpreende, pois, embora ossos de mamute já tenham sido usados para vestimentas e cabanas, uma escultura desse tamanho é inédita. O mistério sobre o uso da estrutura e os buracos ao redor continua a intrigar a comunidade científica.",
         "img":"https://raw.githubusercontent.com/vitorSbc/Site_Paleo_Pulse/refs/heads/main/Pictures/Os_Mamutes/ossos-mamut.jpg",
         "img2":"https://raw.githubusercontent.com/vitorSbc/Site_Paleo_Pulse/refs/heads/main/Pictures/Os_Mamutes/sn-mammoth.jpg"
@@ -101,7 +101,7 @@
         "id":12,
         "categoria":"historia",
         "icon":"https://raw.githubusercontent.com/vitorSbc/Site_Paleo_Pulse/refs/heads/main/Pictures/Icones/cave.png",
-        "titulo":"O Abrigo da preguiças-gigante de 200 mil anos",
+        "titulo":"A Toca da preguiças-gigante",
         "texto":"Foi descoberto um abrigo de preguiça-gigante, conhecido como paleotoca, em Santana do Livramento, Rio Grande do Sul, com mais de 200.000 anos. A Vinícola Almadén, que possui a propriedade, planeja incluir o local em roteiros turísticos. Inicialmente associada a outro animal, a paleotoca foi identificada como um abrigo de preguiças-gigantes, com marcas de garras, e é uma das descobertas mais bem preservadas do Brasil. Além disso, foi encontrada uma segunda toca, de um tatu-gigante, com indícios de uso de madeira para construção. A pesquisa será registrada no ICMBio/Cecav, que classifica cavernas no Brasil. A Vinícola também está desenvolvendo um roteiro turístico para garantir a preservação do local e a segurança dos visitantes. A descoberta destaca a riqueza arqueológica da região Sul do Brasil, que possui várias paleotocas de animais pré-históricos.",
         "img":"https://raw.githubusercontent.com/vitorSbc/Site_Paleo_Pulse/refs/heads/main/Pictures/Toca/Toca2.jpg",
         "img2":"https://raw.githubusercontent.com/vitorSbc/Site_Paleo_Pulse/refs/heads/main/Pictures/Toca/bicho_1.jpg"

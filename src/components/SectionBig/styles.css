@@ -3,13 +3,25 @@
     border-radius: 30px;
     border: 5px solid #FCB742;
     box-shadow: 0px 0px 15px rgb(0, 0, 0);
+    background-color: #FCB742;
     display: inline-block;
     width: 98%;
     height: 70vh;
+    backdrop-filter: blur(1px); 
     overflow-x: hidden;
     overflow-y: hidden;
-
+    background-repeat: no-repeat;
+    background-size:cover ;
+    background-position: center ;
   }
 
-  
-  
+.background-blur {
+    position: absolute; /* Fixa a camada de fundo */
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.466);
+    filter: blur(5px); /* Aplica o blur diretamente à imagem */
+    z-index: -1; /* Coloca a imagem atrás do conteúdo */
+  }

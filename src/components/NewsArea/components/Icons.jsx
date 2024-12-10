@@ -11,7 +11,7 @@ export default function Icons(props) {
         const mixPost = [...post].sort(() => Math.random() - 0.8);
         setSortedPosts(mixPost)
       
-    },[2])
+    },[])
     
     
     if (post.length === 0) {

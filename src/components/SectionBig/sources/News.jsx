@@ -10,17 +10,18 @@ export default function News(props){
     const text = props.text;
     const img = props.img;
     const cat = props.cat;
-    const backgroundImg = news;
-    const [focus, setFocus] = useState(false)
+    const focus = props.focus
+    const setFocus = props.setFocus
     const newFocus = focus ? "newsFocus" : " "
     
+
     return(
        <>
-        <div className={`display ${newFocus} blur-overlay`} style={{backgroundImage: `url(${backgroundImg})`}}>
+        <div className={`display ${newFocus}`}>
+        
             <IconClose focus={focus} setFocus={setFocus}/>
             <Text title={title} focus={focus} setFocus={setFocus} text ={text}/>
             <Img img={img} cat={cat} focus={focus}/>
-            <div className="blur-overlay"></div>
         </div>
         
        </>

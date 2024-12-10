@@ -2,17 +2,14 @@
     display: flex;
     flex-direction:column;
     justify-content:center;
-    align-items:end;
-    background-color: white;
-    transition: 1s;
+    
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.288); 
     background-repeat: no-repeat;
     background-size:cover ;
     background-position: center;
-    overflow-y: scroll;
     overflow-x:hidden ;
-    transition: 2s
+    transition: 2s;
+    z-index: 2;
   }
 
   .display::-webkit-scrollbar {
@@ -31,14 +28,19 @@
 
 .newsFocus{
   display: inline-block;
-  backdrop-filter: blur(1px);
   width: 100%;
   text-align: center;
 
 }
   
-.blur-overlay {
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.288); 
-  backdrop-filter: blur(1px); 
+.display .background-blur {
+  position: absolute; /* Fixa a camada de fundo */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-size: cover;
+  background-position: center;
+  filter: blur(5px); /* Aplica o blur diretamente à imagem */
+  z-index: -1; /* Coloca a imagem atrás do conteúdo */
 }

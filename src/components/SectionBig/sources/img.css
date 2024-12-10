@@ -4,6 +4,7 @@
     border: 5px solid #FCB742;
     border-radius: 50px;
     margin-bottom: 4vh;
+    z-index: 2;
 }
 
 .focus{
