@@ -8,10 +8,10 @@ export default function Icons(props) {
     const [sortedPosts, setSortedPosts] = useState([]);
     
     useEffect(()=>{
-        const mixPost = [...post].sort(() => Math.random() - 0.8);
+        const mixPost = [...post].sort(() => Math.random() - 0.5);
         setSortedPosts(mixPost)
       
-    },[])
+    },[5])
     
     
     if (post.length === 0) {
