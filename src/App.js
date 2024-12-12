@@ -12,16 +12,20 @@ export default function App() {
   
   useEffect(()=>{
     fetch('/News.json').then((response) => response.json()).then((data) => setPosts(data)).catch((error) => console.error('Erro ao carregar o JSON:', error))
-  },[])
+  })
 
-
+if(post.length === 0){
+  return <h2>Loading...</h2>
+}
+else{
   return (
     <>
       <Header />
-      <Category setCategory={setCategory}/>
+      <Category post={post} setCategory={setCategory}/>
       <NewsArea post={post} setpostFil={setpostFil} />
       <SectionBig post={post} postFil={postFil} />
     </>
   );
+}
 }
 
