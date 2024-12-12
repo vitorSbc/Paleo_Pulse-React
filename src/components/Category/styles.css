@@ -3,11 +3,11 @@
     box-shadow: 0px 6px 10px #6e6e6e;
     border: 5px solid #FCB742;
     display: flex;
-    max-width: 50%;
+    max-width: 40%;
     max-height: 12em;
     margin: 8em auto 5em auto;
     padding: 9px;
     border-radius: 20px;
-    align-content: space-between;
+    justify-content: space-between;
 
 }

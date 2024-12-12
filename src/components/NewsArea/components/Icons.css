@@ -1,6 +1,7 @@
 .Icons{
-    width: 13em;
+    width: 12em;
     margin: 5px;
+    align-content:flex-end;
 }
 
 .Icons:hover {
@@ -8,3 +9,6 @@
     transform: scale(1.03);
   }
   
+  .ContainerCat .Icons{
+    width: 8em;
+  }

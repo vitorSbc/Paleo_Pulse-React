@@ -27,6 +27,7 @@ export default function Icons(props) {
         <>
         {sortedPosts.map((item,index)=>{
             return(<img className="Icons" 
+                        key={item.id}
                         src={item.icon} 
                         alt={item.categoria} 
                         onClick={()=> handleClick(item.id)} 
