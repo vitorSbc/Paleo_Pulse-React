@@ -5,9 +5,24 @@
     display: flex;
     max-width: 40%;
     max-height: 12em;
-    margin: 8em auto 5em auto;
+    margin: 0 auto;
     padding: 9px;
     border-radius: 20px;
     justify-content: space-between;
 
+}
+
+.Box_Category{
+    margin-top:2em;
+    padding: 0px;
+    justify-content: center;
+    text-align: center;
+}
+
+.Box_Category h1{
+    display: inline-block;
+    color: #FCB742;
+    text-shadow: 0px 4px 8px rgba(0, 0, 0, 0.575);
+    font-family: "Julius Sans One";
+    font-size: 85px;
 }

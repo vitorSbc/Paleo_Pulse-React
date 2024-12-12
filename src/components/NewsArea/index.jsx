@@ -5,6 +5,7 @@ import "./style.css"
 export default function NewsArea(props){
     const post  = props.post
     const setpostFil = props.setpostFil;
+    const category = props.category;
 
     return(
         <div className="ContainerIcons">
