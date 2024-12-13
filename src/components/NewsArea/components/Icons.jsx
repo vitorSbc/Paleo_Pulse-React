@@ -2,17 +2,28 @@ import { useEffect, useState } from "react";
 import "./Icons.css"
 
 export default function Icons(props) {
-
-    const post= props.post
-    const setpostFil = props.setpostFil;
-    const [sortedPosts, setSortedPosts] = useState([]);
-    const category = props.category
-    const setCategory = props.setCategory ? props.setCategory : " "
-    
-    useEffect(()=>{
-      const mixPost = [...post].sort(() => Math.random() - 0.5);
+  
+  const post= props.post
+  const setpostFil = props.setpostFil;
+  const [sortedPosts, setSortedPosts] = useState([]);
+  const [filtredPosts, setFiltredPosts] = useState([]);
+  const category = props.category
+  const setCategory = props.setCategory ? props.setCategory : " "
+  
+  const mixPostFiltred = (item)=>{
+    if(item.categoria === category){
+      return item
+    }
+  }
+  useEffect(()=>{
+    const mixPost = [...post].sort(() => Math.random() - 0.5);
+    if(category){
+      const filPosts = mixPost.filter(mixPostFiltred)
+      setSortedPosts(filPosts)
+    }
+    else{
       setSortedPosts(mixPost)
-      
+    }
     },[])
     
     
@@ -21,9 +32,8 @@ export default function Icons(props) {
     }
 
     const handleClick = (eventid, eventcat)=>{
-      if(eventcat === "paleontology" ||  eventcat === "archeology" || eventcat === "hisotry"){
+      if(eventid === "paleontology" ||  eventid === "archeology" || eventid === "history"){
         setCategory(eventcat)
-        console.log(eventcat)
       }
       else{
         setpostFil(eventid)
@@ -31,7 +41,7 @@ export default function Icons(props) {
       }
     }
 
-
+    
     return(
         <>
         {sortedPosts.map((item,index)=>{

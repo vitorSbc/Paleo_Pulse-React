@@ -6,19 +6,19 @@ export default function Category(props) {
     const setCategory = props.setCategory;
     
     const posts = [{
-        id:1,
-        categoria:"paleontology",
-        icon:"https://raw.githubusercontent.com/vitorSbc/Paleo_Pulse-React/refs/heads/Teste/src/components/Category/Pictures/cranio-de-dinossauro.png?token=GHSAT0AAAAAAC2LNZULWYWIX4HNMHBWX4O2Z23D5LA"
+        id:"paleontology",
+        categoria:"Paleologia",
+        icon:"https://raw.githubusercontent.com/vitorSbc/Paleo_Pulse-React/refs/heads/Teste/src/components/Category/Pictures/cranio-de-dinossauro.png"
     },
     {
-        id:2,
-        categoria:"archeology",
-        icon:"https://raw.githubusercontent.com/vitorSbc/Paleo_Pulse-React/refs/heads/Teste/src/components/Category/Pictures/hieroglifo.png?token=GHSAT0AAAAAAC2LNZUKUHHCRDZJILQAXXV4Z23D66Q"  
+        id:"archeology",
+        categoria:"arqueologia",
+        icon:"https://raw.githubusercontent.com/vitorSbc/Paleo_Pulse-React/refs/heads/Teste/src/components/Category/Pictures/hieroglifo.png"  
     },
     {
-        id:3,
-        categoria:"hisotry",
-        icon:"https://raw.githubusercontent.com/vitorSbc/Paleo_Pulse-React/refs/heads/Teste/src/components/Category/Pictures/bussola.png?token=GHSAT0AAAAAAC2LNZULLVTCMKCGMG64ZHVOZ23D42Q"  
+        id:"history",
+        categoria:"historia",
+        icon:"https://raw.githubusercontent.com/vitorSbc/Paleo_Pulse-React/refs/heads/Teste/src/components/Category/Pictures/bussola.png"  
     }]
 
     return(
