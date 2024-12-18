@@ -10,5 +10,7 @@
   }
   
   .ContainerCat .Icons{
-    width: 12em;
+    width: 11vw;
+    max-width: 10em;
+    min-width: 6em;
   }

@@ -8,23 +8,18 @@ export default function Icons(props) {
   const [sortedPosts, setSortedPosts] = useState([]);
   const [filtredPosts, setFiltredPosts] = useState([]);
   const category = props.category
-  const setCategory = props.setCategory ? props.setCategory : " "
+  const setCategory = props.setCategory
   
-  const mixPostFiltred = (item)=>{
-    if(item.categoria === category){
-      return item
-    }
-  }
+  const filterPostsByCategory = (posts, category) => {
+    if (!category) return posts; // Se não houver categoria, retorna todos os posts
+    return posts.filter((item) => item.categoria === category);
+  };
+
+
   useEffect(()=>{
-    const mixPost = [...post].sort(() => Math.random() - 0.5);
-    if(category){
-      const filPosts = mixPost.filter(mixPostFiltred)
-      setSortedPosts(filPosts)
-    }
-    else{
-      setSortedPosts(mixPost)
-    }
-    },[])
+     const filteredPosts = filterPostsByCategory(post, category);
+     setSortedPosts(filteredPosts)
+    },[category, post])
     
     
     if (post.length === 0) {
@@ -33,7 +28,7 @@ export default function Icons(props) {
 
     const handleClick = (eventid, eventcat)=>{
       if(eventid === "paleontology" ||  eventid === "archeology" || eventid === "history"){
-        setCategory(eventcat)
+        setCategory(eventcat);
       }
       else{
         setpostFil(eventid)
@@ -41,7 +36,6 @@ export default function Icons(props) {
       }
     }
 
-    
     return(
         <>
         {sortedPosts.map((item,index)=>{

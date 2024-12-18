@@ -4,6 +4,7 @@ import "./styles.css"
 
 export default function Category(props) {
     const setCategory = props.setCategory;
+    const category = props.category;
     
     const posts = [{
         id:"paleontology",
@@ -25,7 +26,7 @@ export default function Category(props) {
         <div className="Box_Category">
             <h1 className="Title_Category">Categorias</h1>
             <div className="ContainerCat">
-                <Icons post={posts} setCategory = {setCategory}/>
+                <Icons post={posts} setCategory = {setCategory} category = {category}/>
             </div>
         </div>
     )
