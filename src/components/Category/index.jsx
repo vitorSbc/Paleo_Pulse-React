@@ -5,7 +5,8 @@ import "./styles.css"
 export default function Category(props) {
     const setCategory = props.setCategory;
     const category = props.category;
-    
+    const teste = "teste";
+
     const posts = [{
         id:"paleontology",
         categoria:"Paleologia",
