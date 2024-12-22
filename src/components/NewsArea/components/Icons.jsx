@@ -10,16 +10,12 @@ export default function Icons(props) {
   const category = props.category
   const setCategory = props.setCategory
   
-  const filterPostsByCategory = (posts, category) => {
-    if (!category) return posts; // Se não houver categoria, retorna todos os posts
-    return posts.filter((item) => item.categoria === category);
-  };
 
 
   useEffect(()=>{
-     const filteredPosts = filterPostsByCategory(post, category);
-     setSortedPosts(filteredPosts)
-    },[category, post])
+    const mixPost = [...post];
+     setSortedPosts(mixPost)
+    },[post])
     
     
     if (post.length === 0) {
@@ -27,13 +23,7 @@ export default function Icons(props) {
     }
 
     const handleClick = (eventid, eventcat)=>{
-      if(eventid === "paleontology" ||  eventid === "archeology" || eventid === "history"){
-        setCategory(eventcat);
-      }
-      else{
-        setpostFil(eventid)
-
-      }
+        setpostFil(eventid)      
     }
 
     return(

@@ -6,11 +6,17 @@ export default function NewsArea(props){
     const post  = props.post
     const setpostFil = props.setpostFil;
     const category = props.category;
+    
 
-    const filterPosts = (post)=>{
-        return category ? post.categoria === category : true;
-    }
-    const filtpost = [...post].filter(filterPosts);
+    const filterPostsByCategory = (posts, category) => {
+
+        if (!category) {
+          return post; // Se não houver categoria, retorna todos os posts
+        }
+          return posts.filter((item) => item.categoria === category);
+      };
+    
+
 
     // Caso não exista categoria e não haja posts, ou se não houver posts filtrados, exibe uma mensagem
     if (category === false) {
@@ -19,7 +25,7 @@ export default function NewsArea(props){
     else{
         return (
             <div className="ContainerIcons">
-                <Icons setpostFil={setpostFil} post={filtpost} />
+                <Icons setpostFil={setpostFil} post={filterPostsByCategory(post, category)} />
             </div>
         );
 

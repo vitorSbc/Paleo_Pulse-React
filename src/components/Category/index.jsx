@@ -1,4 +1,5 @@
 import Icons from "../NewsArea/components/Icons"
+import IconsCategory from "./Components/IconsCategory";
 import "./styles.css"
 
 
@@ -27,7 +28,7 @@ export default function Category(props) {
         <div className="Box_Category">
             <h1 className="Title_Category">Categorias</h1>
             <div className="ContainerCat">
-                <Icons post={posts} setCategory = {setCategory} category = {category}/>
+                <IconsCategory post={posts} setCategory = {setCategory} category = {category}/>
             </div>
         </div>
     )

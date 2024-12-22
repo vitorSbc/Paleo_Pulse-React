@@ -8,6 +8,7 @@
     max-width: 90%;
     max-height: 12em;
     background-color: #011820da;
+    justify-content: space-between;
     overflow-x:scroll;
 }
 

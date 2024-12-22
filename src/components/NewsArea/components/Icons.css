@@ -1,5 +1,6 @@
 .Icons{
-    width: 12em;
+    width: 15%;
+    min-width: 12vw;
     margin: 5px;
     align-content:flex-end;
 }

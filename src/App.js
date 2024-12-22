@@ -8,7 +8,7 @@ import Category from "./components/Category";
 export default function App() {
   const [postFil, setpostFil] = useState([])
   const [post, setPosts] = useState([])
-  const [category, setCategory] = useState([])
+  const [category, setCategory] = useState(null)
   
   useEffect(()=>{
     fetch('/News.json').then((response) => response.json()).then((data) => setPosts(data)).catch((error) => console.error('Erro ao carregar o JSON:', error))
