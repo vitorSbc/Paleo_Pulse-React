@@ -11,3 +11,15 @@ html {
   padding: 0px;
   height: 100%;
 }
+
+body::-webkit-scrollbar {
+  width: 15px;
+}
+
+body::-webkit-scrollbar-track {
+  background: #fcb84281;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #FCB742;
+}

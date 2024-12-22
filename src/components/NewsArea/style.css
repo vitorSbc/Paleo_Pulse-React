@@ -14,9 +14,7 @@
 
 .ContainerIcons::-webkit-scrollbar {
     height: 10px;
-    
     overflow-x: hidden;        
-    
   }
 
   .ContainerIcons::-webkit-scrollbar-track {
